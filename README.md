@@ -1,63 +1,33 @@
-# Pre-work - Tip Calculator
+# Flix
 
-Tip Calculator is a tip calculator application for iOS.
+Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Submitted by: Khang Nguyen
+📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
 
-Time spent: 5 hours spent in total
+---
 
-## User Stories
+## Flix Part 1
 
-The following **required** functionality is complete:
+### User Stories
+`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after checking off completed user stories)
 
-* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+#### REQUIRED (10pts)
+- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
+- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
+- [x] (3pts) User can view the movie poster image for each movie.
 
-The following **optional** features are implemented:
+#### BONUS
+- [x] (2pt) User can view the app on various device sizes and orientations.
+- [ ] (1pt) Run your app on a real device.
 
-* [x] UI animations
-* [x] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
-
-The following **additional** features are implemented:
-
-- [x] Customize the tip percentage setting
-- [x] Change Tip SegmentControlUI to match with settings   
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
+### App Walkthrough GIF
 
 <img src='https://im2.ezgif.com/tmp/ezgif-2-36cc3c4fba.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-![](https://im2.ezgif.com/tmp/ezgif-2-36cc3c4fba.gif)
-
-![](https://media.giphy.com/media/uGZaOxsH8nQHttWvfH/giphy.gif)
+![](https://i.imgur.com/7hu7Ghz.gif)
+![](https://media.giphy.com/media/pm45UkGR8agzzN4KVA/giphy.gif)
+![](https://drive.google.com/file/d/1pDDI71Jb8MQV_FwO47BcR7xaLgKJzo23/view?usp=sharing)
 Gif on google drive: 
 ![](https://drive.google.com/file/d/132i04c7WYikZpc29VNCzN-pip5FtpN5R/view?usp=sharing)
-
-## Notes
-
+### Notes
 Describe any challenges encountered while building the app.
-
-- It was difficult to save and load data
-- Sync between two views 
-- Percentage format and convert between double and string, vice versa 
-## License
-
-    Copyright [2022] Khang Nguyen
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
